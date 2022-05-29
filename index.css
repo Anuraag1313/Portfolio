@@ -1,0 +1,38 @@
+#page {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid red;
+}
+
+#navbar {
+  height: 75px;
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+}
+
+#firstHalf {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#secondHalf {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#navElem {
+  height: 100%;
+  width: 10%;
+}
+
+#navElem > h1 {
+  text-align: center;
+}
