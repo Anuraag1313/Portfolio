@@ -54,7 +54,15 @@ a > p {
   color: rgb(200, 200, 200);
 }
 
-a > p:hover {
+a > h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 10px;
+  font-weight: 900;
+  color: rgb(200, 200, 200);
+}
+
+a > h1:hover {
   color: rgb(0, 0, 0);
 }
 
@@ -101,5 +109,36 @@ a:link {
 
 #aboutText > h2 {
   color: rgb(165, 164, 164);
-  margin-top: 180px;
+  margin-top: 140px;
+}
+
+#projectShowcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 30px;
+  color: rgb(200, 200, 200);
+}
+
+#firstProject {
+  height: 400px;
+  width: 1200px;
+  /* border: 1px solid red; */
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 5px solid rgb(201, 201, 201);
+}
+
+#secondProject {
+  height: 400px;
+  width: 1200px;
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 5px solid rgb(201, 201, 201);
 }
